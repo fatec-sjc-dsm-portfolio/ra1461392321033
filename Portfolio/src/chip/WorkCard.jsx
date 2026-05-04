@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { data } from "../data/data";
-import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -15,7 +14,7 @@ const WorkCard = () => {
           <div
             data-aos="zoom-in"
             key={data.id}
-            className="flex flex-col items-center gap-4 w-[320px] sm:w-[92%]"
+            className="flex flex-col items-center gap-4 w-full sm:w-[320px] md:w-[330px] lg:w-[340px] max-w-[340px]"
           >
             <POPUP className="img-content relative">
               <div className="h-[260px] w-full hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-full sm:bg-cover mx-auto">
@@ -29,26 +28,17 @@ const WorkCard = () => {
               <div
                 className={` popup w-full h-[260px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-full p-4`}
               >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
+                <p className="text-gray-900 text-base leading-[1.4] text-justify w-full px-2">
                   {data.desc}
                 </p>
-                <div className=" flex items-center justify-center gap-4">
-                  <Link
-                    to={data.link}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                  >
-                    <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
-                  </Link>
-                  <br className="w-[2px] bg-white" />
+                <div className="flex items-center justify-center mt-3">
                   <Link
                     to={data.git}
                     target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
+                    className="rounded-md shadow-md p-1 px-3 flex gap-2 items-center justify-center font-medium"
                   >
-                    <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Code</p>
+                    <AiOutlineGithub className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                    <p className="text-black">Code</p>
                   </Link>
                 </div>
               </div>

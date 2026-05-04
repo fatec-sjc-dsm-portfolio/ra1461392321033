@@ -1,12 +1,10 @@
 import React from "react";
 import {
-  AiFillTwitterCircle,
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
-import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/PortfolioFilipeCollaIngles.pdf";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -93,12 +91,6 @@ const Hero = () => {
                 <a href="https://wa.me/5512997601410?text=Hello,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch!" target="_blank" rel="noopener noreferrer">
                   {" "}
                   <RiWhatsappFill className="text-white h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/CollaFilipe" target="_blank" rel="noopener noreferrer">
-                  {" "}
-                  <AiFillTwitterCircle className="text-white h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>
