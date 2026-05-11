@@ -20,10 +20,6 @@ const navItems = [
     id: 3,
     name: "resume",
   },
-  {
-    id: 4,
-    name: "contact",
-  },
 ];
 
 const NavBar = ({ toggleDarkMode, darkMode }) => {

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
 import Hero from "../components/hero/Hero";
 import NavBar from "../components/navbar/NavBar";
@@ -19,7 +18,6 @@ const Home = () => {
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </>
   );
