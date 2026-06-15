@@ -46,7 +46,7 @@ export const data = [
   },
   {
     id: 6,
-    categories: ["academic", "personal"],
+    categories: ["personal"],
     img: "https://i.postimg.cc/9X8rgtQv/Captura-de-tela-2026-05-11-205629.png",
     title: "Personal Portfolio",
     desc: "This project was a personal initiative to create a portfolio website. I was responsible for the entire development process, from design to deployment. The website was built using React, Tailwind CSS, and AOS animations.",
