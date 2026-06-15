@@ -108,4 +108,13 @@ export const data = [
     git: "https://github.com/collafilipe/Spider-Man-Mask-Mediapipe-OpenCV",
     link: "https://github.com/collafilipe/Spider-Man-Mask-Mediapipe-OpenCV",
   },
+  {
+    id: 14,
+    categories: ["academic"],
+    img: "https://i.postimg.cc/Wbm6w31Y/Captura-de-tela-2026-06-15-190148.png",
+    title: "Análise de aspectos Ambientais, Sociais e de Governança (ASG)",
+    desc: "I implemented a analysis of environmental, social and governance aspects (ASG) using Python and Pandas. The project uses the Python library to analyze the data and the Pandas library to draw the data on the screen.",
+    git: "https://github.com/Sync-FATEC/API-2026-6SEM",
+    link: "https://github.com/Sync-FATEC/API-2026-6SEM",
+  },
 ];
